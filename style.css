@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    background: #6A6B7A96;
+    font-family: 'Roboto', sans-serif;
+}
+#container{
+    max-width: 900px;
+    background-color: #E2E3F0;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/*-----------------
+Header Section Design
+-----------*/
+
+header{
+    
+}
+
+.profileImage{
+    width: 100px;
+    height: 110px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+
+
+.headerBio{
+    float: left;
+    padding: 30px;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+}
+
+.headerContact{
+    float: right;
+    padding: 30px;
+}
+
+.headerContact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+
+.headerContact a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+
+#divClear{
+    clear: both;
+}
+
+hr{
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+/*Header Section End*/
+
+
+
+
+/*Main Section Start*/
+
+#personalSection{
+    
+}
+
+
+.content{
+    
+    margin-bottom: 30px;
+}
+
+
+.left-div{
+    
+    width: 30%;
+    float: left;
+}
+
+.right-div{
+    width: 70%;
+    float: left;
+}
+
+.common-hr{
+    border: 1px solid black;
+    border-bottom: none;
+    width:100%;
+    margin: 20px auto;
+}
+
+
+
+/*--------------
+Education Srction Part
+------------------*/
+
+
+.eduTemplateRight{
+    float: right;
+    width: 45%;
+}
+
+
+.eduTemplateLeft{
+    float: left;
+    width: 45%;
+}
+
+
+/*-----------------
+Footer Section Design
+-----------*/
+
+.footerContainer{
+    background: black;
+    color:white;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.footerContainer a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+
+.footerContainer p{
+    margin-top: 20px;
+}
